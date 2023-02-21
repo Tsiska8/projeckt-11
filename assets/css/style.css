@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+   }
+
+   @font-face {
+    font-family:'Space Mono';
+    src: url(../Fonts/SpaceMono-Bold.ttf);}
+
+    @font-face{
+        font-family:'Work Sans';
+        src: url(../Fonts/WorkSans-VariableFont_wght.ttf)}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.desktop{
+    background-color: #2B2B2B;
+}
+
+.nav-item{
+margin-right: 50px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+}
+
+.nav-item1{
+    padding:5px 10px;
+    background: #A259FF;
+    border-radius: 20px;
+}
+
+.SignUp{
+    border: none;
+    background: none;
+    color: #FFFFFF;
+}
+
+.text-wallet{
+font-family: 'Work Sans'!important;
+font-style: normal !important;
+font-weight: 400 !important;
+font-size: 16px !important;
+line-height: 140% !important;
+
+text-align: center !important;
+
+color: #FFFFFF !important;
+
+}
