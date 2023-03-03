@@ -64,3 +64,15 @@ width: 425px;
 height: 60px;
 align-items: center;
 }
+
+.blur{
+    position: absolute;
+    z-index: 1;
+    height: 240px;
+    width: 302px; 
+    padding: 75px;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7.5px);
+    border-radius: 20px 20px 0px 0px;
+}
