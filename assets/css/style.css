@@ -16,9 +16,6 @@ body{
     background-color: #2B2B2B;
 }
 
-.navbar-nav{
- margin-left: auto;
-}
 .nav-link{
 color: #FFFFFF;
 font-family: 'Work Sans';
@@ -28,41 +25,12 @@ font-size: 16px;
 line-height: 140%;
 }
 
-.box-item{width: 152px;
+.btn1{width: 152px;
     height: 60px;
-    padding: 10px 20px;
+    text-transform: capitalize;
     background: #A259FF;
     border-radius: 20px;
-}
-
-.SignUp{
-    border: none;
-    background: none;
     color: #FFFFFF;
-}
-
-.text-wallet{
-font-family: 'Work Sans'!important;
-font-style: normal !important;
-font-weight: 400 !important;
-font-size: 16px !important;
-line-height: 140% !important;
-
-text-align: center !important;
-
-color: #FFFFFF !important;
-
-}
-
-h1{
-    font-weight: 600;
-  font-size: 67px;
-}
-
-.btn-box{
-width: 425px;
-height: 60px;
-align-items: center;
 }
 
 .blur{
