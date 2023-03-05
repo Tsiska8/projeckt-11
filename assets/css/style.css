@@ -16,6 +16,9 @@ body{
     background-color: #2B2B2B;
 }
 
+.bg-nav{
+    background-color: #2B2B2B !important;
+}
 .nav-link{
 color: #FFFFFF;
 font-family: 'Work Sans';
@@ -33,6 +36,21 @@ line-height: 140%;
     color: #FFFFFF;
 }
 
+h1 {
+    font-weight: 600;
+    font-size: 67px;
+    color: #FFFFFF;
+}
+
+.text-hft{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 160%;
+color: #FFFFFF;
+}
+
 .blur{
     position: absolute;
     z-index: 1;
@@ -43,4 +61,73 @@ line-height: 140%;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(7.5px);
     border-radius: 20px 20px 0px 0px;
+}
+
+.box-nummer{
+    width: 30px;
+    height: 30px;
+    background: #2B2B2B;
+    border-radius: 20px;
+    text-align: center;
+    padding-top:3px;
+    margin-top:15px;
+    margin-left: 15px;
+    color: #858584;
+    font-size: 16px;
+    font-family: 'Space Mono';
+    font-weight: 400;
+}
+
+.btn-box{
+   display: flex;
+   width: 420px;
+  height: 60px;
+  padding: 0px;
+   background: #FFFFFF;
+   border-radius: 20px;
+
+}
+
+.input{
+height: 60px;
+padding:0px 20px;
+border-radius: 20px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+border: none;
+
+color: #2B2B2B;
+}
+
+.btn3{
+    width: 190px;
+    height: 60px;
+    padding:0px 20px;
+    border-radius: 20px;
+    background: #A259FF;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+}
+
+.text-join{
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 160%;
+}
+
+.text-place{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+
+color: #CCCCCC;
 }
