@@ -124,6 +124,17 @@ color: #2B2B2B;
     border: none;
 }
 
+.timer{
+    height: 144px;
+    padding:30px;
+     background: rgba(59, 59, 59, 0.5);
+     backdrop-filter: blur(5px);
+     border-radius: 20px;
+     font-family: 'Space Mono';
+     font-style: normal;
+     color: #FFFFFF;
+}
+
 .text-join{
 font-family: 'Space Mono';
 font-style: normal;
@@ -136,8 +147,8 @@ line-height: 160%;
 font-family: 'Work Sans';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
-line-height: 140%;
+font-size: 22px;
+line-height: 160%;
 
 color: #CCCCCC;
 }
