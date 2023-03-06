@@ -51,6 +51,16 @@ line-height: 160%;
 color: #FFFFFF;
 }
 
+.btn5{
+width: 247px;
+height: 60px;
+gap: 12px;
+align-items: center;
+border: 2px solid #A259FF;
+border-radius: 20px;
+background: #2B2B2B;
+}
+
 .blur{
     position: absolute;
     z-index: 1;
