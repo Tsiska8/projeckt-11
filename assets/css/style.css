@@ -126,10 +126,18 @@ color: #2B2B2B;
 
 .mein-piltz{
     display: flex;
-    width: 1050px;
-    height: 220px;
-    padding-left: 100px;
-    margin-top: 360px;
+    position: absolute;
+    padding: 100px;
+    bottom: 60px;   
+}
+
+.blur2{
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
 }
 
 .timer{
