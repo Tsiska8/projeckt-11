@@ -51,14 +51,6 @@ line-height: 160%;
 color: #FFFFFF;
 }
 
-.card1 {
-    Width:1920;
-}
-@media  only screen and (max-width: 768px) {
-    .card1{
-        display: none !important;
-    }
-}
 
 .btn5{
 width: 247px;
