@@ -51,6 +51,8 @@ line-height: 160%;
 color: #FFFFFF;
 }
 
+@media screen and (max-width: 768px)
+ { .box-foto { display: none !important; } }
 
 .btn5{
 width: 247px;
