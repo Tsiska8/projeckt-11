@@ -66,14 +66,18 @@ background: #2B2B2B;
 
 .blur{
     position: absolute;
-    z-index: 1;
+    width: 300px;
     height: 240px;
-    width: 302px; 
-    padding: 75px;
 
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(7.5px);
     border-radius: 20px 20px 0px 0px;
+}
+
+.box-categories{
+width: 240px;
+height: 76px;
+padding: 20px 30px 25px;
 }
 
 .box-nummer{
