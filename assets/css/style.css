@@ -147,14 +147,6 @@ color: #2B2B2B;
     background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
 }
 
-.timer{
-    padding:30px;
-    gap: 10px;
-    background: rgba(59, 59, 59, 0.5);
-    backdrop-filter: blur(5px);
-    border-radius: 20px;
-}
-
 .text-join{
 font-family: 'Space Mono';
 font-style: normal;
