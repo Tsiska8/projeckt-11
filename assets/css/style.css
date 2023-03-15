@@ -66,9 +66,8 @@ background: #2B2B2B;
 
 .blur{
     position: absolute;
-    width: 300px;
-    height: 300px;
-
+    height: 270px;
+    width: 270px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(7.5px);
     border-radius: 20px 20px 0px 0px;
