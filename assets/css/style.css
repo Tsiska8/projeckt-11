@@ -67,11 +67,14 @@ background: #2B2B2B;
 .blur{
     position: absolute;
     height: 270px;
-    width: 270px;
+    width: 100%;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(7.5px);
     border-radius: 20px 20px 0px 0px;
 }
+
+@media screen and (max-width: 768px)
+ { .blur { height: 142px; } }
 
 .box-categories{
 width: 240px;
