@@ -14,6 +14,7 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: #2B2B2B;
+    overflow-x: hidden;
 }
 
 .bg-nav{
@@ -36,6 +37,18 @@ line-height: 140%;
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 768px)
+ { .btn1 { 
+    width: 100%;
+    height: 60px;
+    text-transform: capitalize;
+    background: #A259FF;
+    border-radius: 20px;
+    color: #FFFFFF;
+    border: none;
+  } }
+
+
 h1 {
     font-weight: 600;
     font-size: 67px;
@@ -53,6 +66,7 @@ color: #FFFFFF;
 
 @media screen and (max-width: 768px)
  { .box-foto { display: none !important; } }
+
 
 .btn5{
 width: 247px;
@@ -113,13 +127,14 @@ padding: 20px 30px 25px;
 }
 
 .block-num{
+    position: absolute;
+    top: 20px;
+    margin-left: 20px;
     width: 30px;
     height: 30px;
     background: #2B2B2B;
     border-radius: 20px;
     text-align: center;
-    padding-top:3px;
-    margin-left: 20px;
     color: #858584;
     font-size: 16px;
     font-family: 'Space Mono';
@@ -128,20 +143,20 @@ padding: 20px 30px 25px;
 
 .btn-box{
    display: flex;
+   margin-top: 20px;
    width: 420px;
-  height: 60px;
-  padding: 0px;
+   padding: 0px;
    background: #FFFFFF;
    border-radius: 20px;
-   margin-left: auto;
 }
 
 @media screen and (max-width: 768px)
  { .btn-box { 
+    margin-top: 20px;
     display: flex;
-   width: 100%;
-  gap: 10px;
-  padding: 0px;
+    width: 100%;
+    gap: 10px;
+    padding: 0px;
    background: transparent;
    border-radius: 20px;
    margin-left: auto;
@@ -159,7 +174,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 140%;
 border: none;
-
+outline: none;
 color: #2B2B2B;
 }
 
@@ -189,7 +204,8 @@ color: #2B2B2B;
      background: rgba(59, 59, 59, 0.5);
      backdrop-filter: blur(5px);
      border-radius: 20px;
-     padding: 30px;text-transform: capitalize;
+     padding: 30px;
+     text-transform: capitalize;
      color: #FFFFFF;
 }
 
@@ -199,7 +215,8 @@ color: #2B2B2B;
     background: rgba(59, 59, 59, 0.5);
     backdrop-filter: blur(5px);
     border-radius: 20px;
-    padding: 30px;text-transform: capitalize;
+    padding: 30px 10px;
+    text-transform: capitalize;
     color: #FFFFFF;
  } }
 
@@ -209,6 +226,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 22px;
 line-height: 160%;
+margin-bottom: 33px;
 }
 
 .text-place{
@@ -220,3 +238,20 @@ line-height: 160%;
 
 color: #CCCCCC;
 }
+
+.card-group{
+   gap:70px; 
+   padding: 15px;
+    background: #3B3B3B;
+    border-radius:20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+
+@media screen and (max-width: 768px)
+ { .card-group{ background: transparent;} }
+
+ .card{
+    background: #3B3B3B;
+    border: none;
+ }
