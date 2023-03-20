@@ -14,7 +14,7 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: #2B2B2B;
-    
+    overflow-x: hidden;
 }
 
 @media screen and (max-width: 768px)
