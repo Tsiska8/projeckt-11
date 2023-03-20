@@ -14,12 +14,8 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: #2B2B2B;
-    overflow-x: hidden;
+   
 }
-
-@media screen and (max-width: 768px)
- { body {overflow-x: hidden;} }
-
 
 .bg-nav{
     background-color: #2B2B2B !important;
@@ -193,15 +189,6 @@ color: #2B2B2B;
     font-weight: 600;
     color: #FFFFFF;
     border: none;
-}
-
-.blur2{
-    position: absolute;
-    right: 0px;
-    left: 0px;
-    top: 0px;
-    bottom: 0px;
-    background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
 }
 
 .timer{
