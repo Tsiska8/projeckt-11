@@ -249,3 +249,29 @@ color: #CCCCCC;
     background: #3B3B3B;
     border: none;
  }
+
+ h5{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 51px;
+ }
+
+ .typeform{  
+width: 330px;
+height: 46px;
+background: #FFFFFF;
+border: 1px solid #858584;
+border-radius: 20px;
+ }
+
+ .typeform1{  
+    padding: 0px 75px;
+    width: 330px;
+    height: 46px;
+    background: #A259FF;
+    border: 1px solid #858584;
+    border-radius: 20px;
+     }
+     
+ 
