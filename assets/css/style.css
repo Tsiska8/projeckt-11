@@ -283,12 +283,12 @@ border-radius: 20px;
  @media screen and (max-width: 768px)
  { .typeform1{  width: 100%;  } }
 
-        .btn11{
-            width: 330px;
-            height: 46px;
-    background: #A259FF;
-    border: 1px solid #858584;
-    border-radius: 20px;
+.btn11{
+width: 330px;
+height: 46px;
+background: #A259FF;
+border: 1px solid #858584;
+border-radius: 20px;
         }
 
         @media screen and (max-width: 768px)
