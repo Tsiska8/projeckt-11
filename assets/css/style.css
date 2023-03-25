@@ -359,10 +359,4 @@ border: 2px solid #A259FF;
 border-radius: 20px;
  }
  
- @media screen and (max-width: 768px)
- { .main-btn{ 
-    flex-direction: column;
-    gap: 10px;
-     margin-left: auto;
-    width: 100%;
-           } }
+
