@@ -310,7 +310,6 @@ bottom: 0%;
     top: 40%;
     bottom: 0%; } }
 
-
  .btn13{
 width: 186px;
 height: 60px;
@@ -343,7 +342,8 @@ color: #FFFFFF;
 
     @media screen and (max-width: 768px)
  { .btn12{
-width: 100%;
+width: 100% !important;
+margin-left: 0px !important;
 height: 60px;
 background: #2B2B2B;
 border: 2px solid #A259FF;
