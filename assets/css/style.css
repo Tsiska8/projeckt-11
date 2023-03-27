@@ -399,8 +399,12 @@ width: 295px;
 background: #3B3B3B;
 border-radius: 20px;
 padding: 18px;
- 
  }
+
+ @media screen and (max-width: 768px)
+ { .timer15{
+      width: 100% !important;
+ } }
 
  .btn15{
 width: 235px;
@@ -496,3 +500,8 @@ background: #2B2B2B;
 border: 2px solid #A259FF;
 border-radius: 20px;
  }
+
+ @media screen and (max-width: 768px)
+ { .btn15-4{
+      width: 100% !important;
+ } }
