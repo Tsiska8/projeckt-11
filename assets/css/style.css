@@ -404,6 +404,7 @@ padding: 18px;
  @media screen and (max-width: 768px)
  { .timer15{
       width: 100% !important;
+      padding: 30px;
  } }
 
  .btn15{
