@@ -407,6 +407,16 @@ padding: 18px;
       padding: 30px;
  } }
 
+ @media screen and (max-width: 768px)
+ { .btn15{
+      width: 100% !important;
+ } }
+
+ @media screen and (max-width: 768px)
+ { .text-more {
+      font-size: 28px !important;
+ } }
+
  .btn15{
 width: 235px;
 height: 60px;
