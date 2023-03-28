@@ -530,3 +530,14 @@ border: none;
 
 color: #858584;
  }
+
+ @media screen and (max-width: 768px)
+ { .box-serch16{
+      width: 100% !important;
+      margin-bottom: 10px !important;
+ } }
+
+ @media screen and (max-width: 768px)
+ { .text-marktpl{
+      font-size: 28px !important;
+ } }
