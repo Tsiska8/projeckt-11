@@ -536,3 +536,8 @@ color: #858584;
  { .text-marktpl{
       font-size: 28px !important;
  } }
+
+ @media screen and (max-width: 768px)
+ { .text-nft{
+      padding-left: 50px !important;
+ } }
