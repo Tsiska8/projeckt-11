@@ -541,3 +541,59 @@ color: #858584;
  { .text-nft{
       padding-left: 50px !important;
  } }
+
+ .text-month{
+    cursor: pointer;
+    position: relative;
+ }
+
+ .text-month::before{
+  position: absolute;
+  content: "";
+  width: 0px;
+  height: 2px;
+  background: #858584;
+  bottom: 0px;
+  left: 0px;
+ }
+
+ .text-month:hover::before{
+    width: 60%;
+ }
+
+ .text-to:hover{
+    color: #858584;
+ }
+
+ .text-month1{
+    cursor: pointer;
+    position: relative;
+ }
+
+ @media screen and (max-width: 768px)
+ { .text-month{
+    display: none !important;
+ } }
+
+ @media screen and (max-width: 768px)
+ { .text-to{
+    display: none !important;
+ } }
+
+ .text-month1::before{
+  position: absolute;
+  content: "";
+  width: 0px;
+  height: 2px;
+  background: #858584;
+  bottom: 0px;
+  left: 0px;
+ }
+
+ .text-month1:hover::before{
+    width: 60%;
+ }
+
+ .text-to1:hover{
+    color: #858584;
+ }
