@@ -613,3 +613,15 @@ color: #858584;
    font-weight: 400;
    line-height: 140%;
 }
+
+@media screen and (max-width: 768px)
+ { .block17-num{
+   width:24px !important;
+   height:24px !important;
+ } }
+
+ @media screen and (max-width: 768px)
+ { .main-foto-avatar{
+   width:50px;
+   height:50px;
+ } }
